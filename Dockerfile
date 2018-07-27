@@ -1,3 +1,6 @@
-FROM php:7.1-apache
-COPY src/ /var/www/html
-EXPOSE 80
+#Example
+From ubuntu:16.04.02
+RUN apt-get update
+RUN apt-get install -y vim
+RUN apt-get install -y curl
+
